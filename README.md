@@ -1,7 +1,7 @@
 # AI Practice Projects
 
 This repository contains two small projects built to expand my knowledge of working with AI APIs during redundancy. They aren't intended to represent production-level code, 
-so expect to see shortcuts, heavy commenting, and plenty of TODOs!
+so expect to see shortcuts, heavy commenting and plenty of TODOs!
 
 The main focus is understanding how AI tool calls work, how to validate and execute model requests, and how to combine an AI model with conventional application code.
 
