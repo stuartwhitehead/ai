@@ -33,6 +33,8 @@ This project was built as a learning exercise, but it demonstrates several usefu
 - Rendering PDF pages and overlays in a Vue application.
 - Keeping PDF, redaction, and AI responsibilities in separate services.
 
+![PDF redaction interface 1](https://raw.githubusercontent.com/stuartwhitehead/ai/main/screenshots/redaction%20ui%201.png)
+
 ## AI Tool Calling
 
 The shared `ai.common` package contains the agent implementation.
