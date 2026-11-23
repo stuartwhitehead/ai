@@ -35,6 +35,10 @@ This project was built as a learning exercise, but it demonstrates several usefu
 
 ![PDF redaction interface 1](https://raw.githubusercontent.com/stuartwhitehead/ai/main/screenshots/redaction%20ui%201.png)
 
+![PDF redaction interface 1](https://raw.githubusercontent.com/stuartwhitehead/ai/main/screenshots/redaction%20ui%202.png)
+
+![PDF redaction interface 1](https://raw.githubusercontent.com/stuartwhitehead/ai/main/screenshots/redaction%20API.png)
+
 ## AI Tool Calling
 
 The shared `ai.common` package contains the agent implementation.
@@ -49,6 +53,8 @@ requests a tool, I then:
 5. Repeats the process until the model produces a final response (e.g. my implementation of an Agent Loop).
 
 The tool-calling implementation is deliberately simple enough to understand while demonstrating the complete loop, the tools themselves Mickey Mouse Clubhouse simples.
+
+![PDF redaction interface 1](https://raw.githubusercontent.com/stuartwhitehead/ai/main/screenshots/toolcalls.png)
 
 ## Running the Projects
 
