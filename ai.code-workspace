@@ -1,0 +1,31 @@
+{
+  "folders": [
+    {
+      "path": ".",
+    },
+  ],
+  "settings": {
+    "terminal.integrated.profiles.osx": {
+      "ai.types": {
+        "path": "/bin/zsh",
+        "args": ["-c", "cd ai.common && exec /bin/zsh -l"],
+      },
+      "ai.common": {
+        "path": "/bin/zsh",
+        "args": ["-c", "cd ai.common && exec /bin/zsh -l"],
+      },
+      "ai.help.api": {
+        "path": "/bin/zsh",
+        "args": ["-c", "cd ai.help.api && exec /bin/zsh -l"],
+      },
+      "ai.pdf-redact.api": {
+        "path": "/bin/zsh",
+        "args": ["-c", "cd ai.pdf-redact.api && exec /bin/zsh -l"],
+      },
+      "ai.pdf-redact.fe": {
+        "path": "/bin/zsh",
+        "args": ["-c", "cd ai.pdf-redact.fe && exec /bin/zsh -l"],
+      },
+    },
+  },
+}

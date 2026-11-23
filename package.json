@@ -1,0 +1,15 @@
+{
+  "name": "ai-workspace",
+  "private": true,
+  "scripts": {
+    "install:all": "npm install -w ai.types && npm install -w ai.common && npm install -w ai.help.api && npm install -w ai.pdf-redact.api && npm install -w ai.pdf-redact.fe",
+    "build:all": "npm run build -w ai.types && npm run build -w ai.common && npm run build -w ai.help.api && npm run build -w ai.pdf-redact.api && npm run build -w ai.pdf-redact.fe"
+  },
+  "workspaces": [
+    "ai.types",
+    "ai.common",
+    "ai.help.api",
+    "ai.pdf-redact.api",
+    "ai.pdf-redact.fe"
+  ]
+}
